@@ -1,1 +1,1 @@
-# EscapeRoomRecommender
+# EscapeRoomLocator
