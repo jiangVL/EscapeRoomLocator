@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "Compiling Parser.java..."
-javac -d ./../../bin/ Parser.java
+javac -d ./../../../bin/ *.java
 if [ $? -eq 0 ]; then
     echo "Compilation successful."
 else
@@ -10,7 +10,7 @@ else
 fi
 
 echo "Executing Parser.java..."
-java -cp "./../../bin" parser.Parser
+java -cp "./../../../bin" main.parser.Parser
 if [ $? -eq 0 ]; then
     echo "Execution successful."
 else
